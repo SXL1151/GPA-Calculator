@@ -125,8 +125,8 @@ elif booGo == True:
   report_condition = True
 #pdb.set_trace()
 try:
-  finTable = pd.DataFrame(finTable)
-  csv = finTable.to_csv(index=False).encode('utf-8')
+  finTable2 = pd.DataFrame(finTable)
+  csv = finTable2.to_csv(index=False).encode('utf-8')
 except:
   pass
 #buttonDown = st.button()
@@ -143,7 +143,7 @@ if (report_condition == True):
           type="primary",
           on_click="ignore"
       )
-chartData = pd.DataFrame(finTable, columns = ["a", "b", "c"])
+chartData = pd.DataFrame(finTable["Class GPA"], columns = ["a", "b", "c"])
 st.line_chart(chartData)
   
   
