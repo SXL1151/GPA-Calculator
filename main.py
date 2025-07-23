@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import GPACop
-
+import numpy as np
 TotGPA = 0
 cNAMES = []
 cGPAS = []
@@ -144,6 +144,7 @@ if (report_condition == True):
           on_click="ignore"
       )
 
+st.line_chart(finTable, x = "col1", y = "col2")
   
   
     
