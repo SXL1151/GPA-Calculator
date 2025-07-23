@@ -143,8 +143,8 @@ if (report_condition == True):
           type="primary",
           on_click="ignore"
       )
-
-st.line_chart(finTable, x = "col1", y = "col2")
+chartData = pd.DataFrame(finTable, columns = ["a", "b", "c"])
+st.line_chart(chartData)
   
   
     
