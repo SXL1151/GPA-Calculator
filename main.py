@@ -143,8 +143,7 @@ if (report_condition == True):
           type="primary",
           on_click="ignore"
       )
-chartData = pd.DataFrame(finTable["Class GPA"], columns = ["a", "b", "c"])
-st.line_chart(chartData)
+
   
   
     
