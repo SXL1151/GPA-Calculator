@@ -1,6 +1,7 @@
 [theme]
 
 baseRadius = "full"
+buttonRadius = "full"
 
 [global]
 
