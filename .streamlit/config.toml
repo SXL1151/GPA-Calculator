@@ -1,7 +1,6 @@
 [theme]
-backgroundColor = "black"
 baseRadius = "full"
 buttonRadius = "full"
 [global]
-theme = "custom"
+theme = "dark"
 base = "custom"
