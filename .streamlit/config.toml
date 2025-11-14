@@ -1,5 +1,5 @@
 [theme]
-backgroundColor = "dark"
+backgroundColor = "black"
 baseRadius = "full"
 buttonRadius = "full"
 textColor = "white"
