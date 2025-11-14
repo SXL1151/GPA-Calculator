@@ -5,6 +5,3 @@ buttonRadius = "full"
 secondaryBackgroundColor = "#ffefd9"
 primaryColor = "#f58484"
 font="Ubuntu"
-
-[theme]
-backgroundColor = "blue"
