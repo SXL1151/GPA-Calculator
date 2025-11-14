@@ -1,8 +1,8 @@
 [theme]
-backgroundColor = "blue"
+backgroundColor = "#EBB866"
 baseRadius = "full"
 buttonRadius = "full"
 
 [global]
-
+theme = "custom"
 base = "custom"
