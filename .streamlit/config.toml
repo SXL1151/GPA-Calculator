@@ -5,3 +5,5 @@ buttonRadius = "full"
 secondaryBackgroundColor = "#ffefd9"
 primaryColor = "#f58484"
 font="Ubuntu"
+[global]
+base="custom"
