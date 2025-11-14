@@ -1,6 +1,8 @@
 import classAverage
 import pdb
 import streamlit as st
+if "data" not in st.session_state:
+    st.session_state.data = ""
 class CoppellGPAScale:
     def OLGPA(i):
         while True:
