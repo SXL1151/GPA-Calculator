@@ -1,6 +1,3 @@
 [theme]
-backgroundColor = "black"
 baseRadius = "full"
 buttonRadius = "full"
-textColor = "white"
-primaryColor = "black"
