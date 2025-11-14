@@ -7,7 +7,6 @@ cNAMES = []
 cGPAS = []
 report_condition = False  
 table = ""
-st.color_picker("Color")
 st.image(
     "https://media-hosting.imagekit.io/08168422c2f645f9/IMG_1657.png?Expires=1839961164&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=D51gbtOWwAKHNmzhT6r9HNI5K-VKbdti3-2kbUwdd2A649TiXaLzf6GmwO42h5L8ty1RMsmuEkfIxoADqIWfQVDg0XY0uICM~JgnPdXAA0gIqDZUuVYHXG2O3MWt9GoVGR58Sw71K7H3u3zZ5pEY7ezwOnoXcoLK4oSX1uS~EKvwALG-1K9VTUUBtdsmhFlp~TxkSIOh9TW6jC5FD6~XZodWv1uTvHU7OvVewGnrSrL56RlBtsa0CTaHjkq6tPcq-XYirpcVOUagFam2yWQy23IFAgSdH73tSvhrrkkv6v6qTkkVpt5ZK8qghM2hArQwqG8k~D6z-Kg95D0eIuUaaA__",
     width=20)
