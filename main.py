@@ -7,7 +7,6 @@ cNAMES = []
 cGPAS = []
 report_condition = False  
 table = ""
-st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.publicdomainpictures.net%2Fen%2Fview-image.php%3Fimage%3D82908%26picture%3Dcalculator-black-clipart&psig=AOvVaw3VOj6xY3vlNJvQVHIK7CM1&ust=1763237704684000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqGAoTCLCGm7q68pADFQAAAAAdAAAAABCWAQ",width=20)
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if stuVerify == True:
