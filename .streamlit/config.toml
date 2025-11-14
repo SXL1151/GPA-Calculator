@@ -2,5 +2,6 @@
 backgroundColor = "#fffce3"
 baseRadius = "full"
 buttonRadius = "full"
-primaryColor = "forestGreen"
+primaryColor = "#f5bb84"
+secondayColor = "#f58484"
 font="Ubuntu"
