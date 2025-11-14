@@ -3,4 +3,4 @@ baseRadius = "full"
 buttonRadius = "full"
 [global]
 theme = "dark"
-base = "custom"
+base = "dark"
