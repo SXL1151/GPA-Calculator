@@ -7,6 +7,8 @@ cNAMES = []
 cGPAS = []
 report_condition = False  
 table = ""
+st.sidebar()
+st.sidebar.badge("hello world")
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if stuVerify == True:
