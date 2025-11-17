@@ -71,8 +71,7 @@ elif ChoGPA == "Unweighted GPA":
                                   min_value=0, key = f"cnum_{1}")
 
     if num_classes == 0:
-      st.badge("You have no classes, therefore, your GPA cannot be calculated",
-               color="blue")
+      pass
       break
     try:
       num_classes = int(num_classes)
@@ -104,7 +103,7 @@ try:
   st.warning(f"Your total GPA is {TotGPA/num_classes}")
   #report_condition = True
 except:
-  st.badge("No classes to calculate GPA", color="red")
+  pass
 
 finTable = {"Class Name": cNAMES, "Class GPA": cGPAS}
 cNAMES.append("TOTAL GPA")
@@ -112,7 +111,7 @@ try:
   cGPAS.append(str(TotGPA/num_classes))
   booGo = True
 except ZeroDivisionError:
-  st.badge("No classes to build GPA Table", color="red")
+  pass
   booGo = False
 if booGo == False:
   pass
