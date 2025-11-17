@@ -7,7 +7,9 @@ cNAMES = []
 cGPAS = []
 report_condition = False  
 table = ""
-st.title("GPA CALCULATOR")
+col1, col2, col3 = st.columns(3)
+with col2:
+  st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if stuVerify == True:
   st.badge("Coppell ISD Student Verified", color="green")
