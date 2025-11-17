@@ -8,7 +8,7 @@ cGPAS = []
 report_condition = False  
 table = ""
 col1, col2, col3 = st.columns(3)
-with col2:
+with col2 and col3:
   st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if stuVerify == True:
