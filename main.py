@@ -3,11 +3,12 @@ import pandas as pd
 import GPACop
 import numpy as np
 TotGPA = 0
-
 cNAMES = []
 cGPAS = []
 report_condition = False  
 table = ""
+st.sidebar.text("Menu")
+st.sidebar.slider("In Progress")
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if stuVerify == True:
