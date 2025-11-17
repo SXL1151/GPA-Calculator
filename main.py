@@ -3,6 +3,7 @@ import pandas as pd
 import GPACop
 import numpy as np
 TotGPA = 0
+
 cNAMES = []
 cGPAS = []
 report_condition = False  
