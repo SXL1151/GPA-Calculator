@@ -34,7 +34,7 @@ if ChoGPA == "Weighted GPA":
     except ValueError:
       st.badge("Please enter an integer", color="red")
 st.divider()
-st.file_uploader("Upload an image of your transcript", type"JPG")
+st.file_uploader("Upload an image of your transcript", type="JPG")
   for i in range(num_classes):
     cName = st.text_input("Class #" + str(i + 1) + ": What is the class name?)",
                           placeholder="optional", key=f"cname_{i}"
