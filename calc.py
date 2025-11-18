@@ -5,6 +5,7 @@ import numpy as np
 TotGPA = 0
 cNAMES = []
 cGPAS = []
+report_condition = False
 class GPACalc:
   st.title("GPA CALCULATOR")
   stuVerify = st.checkbox("I am a Coppell ISD student")
