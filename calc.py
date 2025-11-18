@@ -1,3 +1,6 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
 class GPACalc:
   st.title("GPA CALCULATOR")
   stuVerify = st.checkbox("I am a Coppell ISD student")
