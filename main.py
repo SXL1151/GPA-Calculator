@@ -10,7 +10,7 @@ try:
   if "page" not in st.session_state:
     st.session_state.page = ""
   def GPA_Calculator():
-    return calc.GPACalc()
+    calc.GPACalc()
   def page_2():
     st.title("In Progress")
   report_condition = False  
