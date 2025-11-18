@@ -8,11 +8,11 @@ cGPAS = []
 report_condition = False  
 table = ""
 st.sidebar.text("Menu")
-st.sidebar.slider("In Progress")
+with st.sidebar:
+  st.navigation("Hello")
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
-if stuVerify == True:
-  st.badge("Coppell ISD Student Verified", color="green")
+
 else:
   st.warning(
       "WARNING: THIS GPA CALCULATOR MAY NOT BE ACCURATE FOR YOUR SCHOOL DISTRICT"
