@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
+import GPACop
 import numpy as np
+import calc
+TotGPA = 0
+cNAMES = []
+cGPAS = []
 class GPACalc:
   st.title("GPA CALCULATOR")
   stuVerify = st.checkbox("I am a Coppell ISD student")
