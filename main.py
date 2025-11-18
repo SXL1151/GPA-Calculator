@@ -7,7 +7,7 @@ TotGPA = 0
 cNAMES = []
 cGPAS = []
 def GPA_Calculator():
-  st.Page(calc.GPACalc())
+  return calc.GPACalc()
 def page_2():
   st.title("In Progress")
 report_condition = False  
