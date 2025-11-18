@@ -8,8 +8,7 @@ cGPAS = []
 report_condition = False  
 table = ""
 st.sidebar.text("Menu")
-with st.sidebar:
-  st.navigation("Hello")
+st.navigation("Hello")
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if not stuVerify:
