@@ -19,8 +19,8 @@ try:
   st.sidebar.text("Menu")
   nv = st.navigation([GPA_Calculator,page_2])
   nv.run()
-except:
-  st.error("")
+except Exception as Ex:
+  st.error(Ex)
   
     
     
