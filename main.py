@@ -12,8 +12,7 @@ with st.sidebar:
   st.navigation("Hello")
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
-
-else:
+if not stuVerify:
   st.warning(
       "WARNING: THIS GPA CALCULATOR MAY NOT BE ACCURATE FOR YOUR SCHOOL DISTRICT"
   )
