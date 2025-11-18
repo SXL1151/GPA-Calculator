@@ -125,7 +125,6 @@ class GPACalc:
   #buttonDown = st.button()
   if (report_condition == True):
     if st.button("Prepare Download", type="primary"):
-    
       if (report_condition == True):
         st.download_button(
             label="Download GPA Report",
