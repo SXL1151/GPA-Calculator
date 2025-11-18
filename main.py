@@ -5,7 +5,7 @@ import numpy as np
 TotGPA = 0
 cNAMES = []
 cGPAS = []
-def page_1:
+def page_1():
   st.title("In Progress")
 report_condition = False  
 table = ""
