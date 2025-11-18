@@ -6,8 +6,11 @@ import calc
 TotGPA = 0
 cNAMES = []
 cGPAS = []
+if "page" not in st.session_state:
+  st.session_state.page = ""
 def GPA_Calculator():
-  return calc.GPACalc()
+  st.session_state.page = calc.GPACalc()
+  return st.session_state.page
 def page_2():
   st.title("In Progress")
 report_condition = False  
