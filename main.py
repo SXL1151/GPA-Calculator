@@ -5,7 +5,7 @@ import numpy as np
 TotGPA = 0
 cNAMES = []
 cGPAS = []
-def page_1():
+def GPA_Calculator():
   st.title("")
   st.title("GPA CALCULATOR")
   stuVerify = st.checkbox("I am a Coppell ISD student")
@@ -142,9 +142,9 @@ def page_2():
   st.title("In Progress")
 report_condition = False  
 table = ""
-st.sidebar.text("Menu")
-nv = st.navigation([page_1,page_2])
-nv.run()
+with .sidebar.text("Menu"):
+  nv = st.navigation([GPA_Calculator,page_2])
+  nv.run()
   
     
     
