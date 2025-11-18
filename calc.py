@@ -101,7 +101,7 @@ class GPACalc:
         
   try:
     st.warning(f"Your total GPA is {TotGPA/num_classes}")
-    #report_condition = True
+    report_condition = True
   except:
     pass
   
