@@ -6,11 +6,13 @@ TotGPA = 0
 cNAMES = []
 cGPAS = []
 def page_1():
+  st.title("")
+def page_2():
   st.title("In Progress")
 report_condition = False  
 table = ""
 st.sidebar.text("Menu")
-nv = st.navigation([page_1])
+nv = st.navigation([page_1,page_2])
 nv.run()
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
