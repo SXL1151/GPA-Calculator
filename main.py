@@ -20,7 +20,7 @@ try:
   nv = st.navigation([GPA_Calculator,page_2])
   nv.run()
 except:
-  pass
+  st.error("")
   
     
     
