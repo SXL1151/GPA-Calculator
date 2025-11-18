@@ -102,7 +102,6 @@ class GPACalc:
     st.warning(f"Your total GPA is {TotGPA/num_classes}")
   except:
     pass
-  report_condition = True
   finTable = {"Class Name": cNAMES, "Class GPA": cGPAS}
   cNAMES.append("TOTAL GPA")
   try:
