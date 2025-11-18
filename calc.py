@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import GPACop
 import numpy as np
-import calc
 TotGPA = 0
 cNAMES = []
 cGPAS = []
