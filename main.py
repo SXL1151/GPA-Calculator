@@ -10,7 +10,8 @@ def page_1():
 report_condition = False  
 table = ""
 st.sidebar.text("Menu")
-st.navigation([page_1])
+nv = st.navigation([page_1])
+nv.run()
 st.title("GPA CALCULATOR")
 stuVerify = st.checkbox("I am a Coppell ISD student")
 if not stuVerify:
