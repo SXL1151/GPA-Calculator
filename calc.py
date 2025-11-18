@@ -139,5 +139,5 @@ class GPACalc:
               type="primary",
               on_click="ignore"
           )
-    except:
-      pass
+  except:
+    pass
