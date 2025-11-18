@@ -125,19 +125,16 @@ class GPACalc:
   except:
     pass
   #buttonDown = st.button()
-  try:
-    if (report_condition == True):
-      if st.button("Prepare Download", type="primary"):
-      
-        if (report_condition == True):
-          st.download_button(
-              label="Download GPA Report",
-              data = csv,
-              file_name="GPA_Report.csv",
-              mime="Report/csv",
-              icon=":material/download:",
-              type="primary",
-              on_click="ignore"
-          )
-  except:
-    pass
+  if (report_condition == True):
+    if st.button("Prepare Download", type="primary"):
+    
+      if (report_condition == True):
+        st.download_button(
+            label="Download GPA Report",
+            data = csv,
+            file_name="GPA_Report.csv",
+            mime="Report/csv",
+            icon=":material/download:",
+            type="primary",
+            on_click="ignore"
+        )
