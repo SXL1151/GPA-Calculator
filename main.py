@@ -142,9 +142,9 @@ def page_2():
   st.title("In Progress")
 report_condition = False  
 table = ""
-with st.sidebar.text("Menu"):
-  nv = st.navigation([GPA_Calculator,page_2])
-  nv.run()
+st.sidebar.text("Menu")
+nv = st.navigation([GPA_Calculator,page_2])
+nv.run()
   
     
     
