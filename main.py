@@ -137,17 +137,8 @@ try:
             type="primary",
             on_click="ignore"
         )
-def GPA_Calculator():
-  pass
-def page_2():
-  st.title("In Progress")
-report_condition = False  
-table = ""
-st.sidebar.text("Menu")
-nv = st.navigation([GPA_Calculator,page_2])
-nv.run()
 except Exception as Ex:
-pass
+  pass
 
   
   
