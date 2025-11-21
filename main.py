@@ -9,8 +9,7 @@ cGPAS = []
 try:
   if "page" not in st.session_state:
     st.session_state.page = ""
-  def GPA_Calculator():
-    st.title("GPA CALCULATOR")
+  st.title("GPA CALCULATOR")
     stuVerify = st.checkbox("I am a Coppell ISD student")
     if not stuVerify:
       st.warning(
@@ -138,6 +137,8 @@ try:
               type="primary",
               on_click="ignore"
           )
+  def GPA_Calculator():
+    pass
   def page_2():
     st.title("In Progress")
   report_condition = False  
